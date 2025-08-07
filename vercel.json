@@ -1,8 +1,15 @@
 {
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist/apps/black-market"
+      }
+    }
+  ],
   "buildCommand": "yarn build",
-  "outputDirectory": "dist/apps/black-market",
   "installCommand": "yarn install",
-  "framework": "vite",
   "routes": [
     {
       "src": "/(.*)",
