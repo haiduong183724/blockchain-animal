@@ -1,0 +1,12 @@
+{
+  "buildCommand": "npx nx build black-market",
+  "outputDirectory": "dist/apps/black-market",
+  "installCommand": "npm install",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
