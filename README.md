@@ -18,7 +18,7 @@ The Black Market application demonstrates:
 - **Game Integration**: Connect with game servers for asset synchronization
 - **Transaction Management**: Real-time transaction details and gas estimation
 
-## Getting Started
+## Getting  Started
 
 ### Prerequisites
 
